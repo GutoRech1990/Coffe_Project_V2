@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 325 100"><defs><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="ssspill-grad"><stop stop-color="hsl(28, 54%, 35%)" stop-opacity="1" offset="45%"></stop><stop stop-color="hsl(0, 0%, 0%)" stop-opacity="1" offset="100%"></stop></linearGradient></defs><rect width="100%" height="100%" fill="hsl(0, 0%, 100%)"></rect><g fill="url(#ssspill-grad)">
+    <rect width="100%" height="40" fill="hsl(28, 54%, 35%)"></rect>
+
+    <rect x="0" width="6.66%" height="77.89698550778536" rx="12"></rect>
+      <rect x="13.33%" width="6.66%" height="97.07228000209992" rx="12"></rect>
+      <rect x="26.67%" width="6.66%" height="87.48950098741236" rx="12"></rect>
+      <rect x="40%" width="6.66%" height="69.99514885329668" rx="12"></rect>
+      <rect x="53.33%" width="6.66%" height="76.28485791808072" rx="12"></rect>
+      <rect x="66.67%" width="6.66%" height="89.8867272399331" rx="12"></rect>
+      <rect x="80%" width="6.66%" height="87.62136060050366" rx="12"></rect>
+      <rect x="93.33%" width="6.66%" height="71.1309712889119" rx="12"></rect>
+  </g><g fill="hsl(0, 0%, 100%)">
+    <rect x="6.66%" y="16.611657020434166" width="6.66%" height="60" rx="12"></rect>
+      <rect x="20%" y="16.26441338538455" width="6.66%" height="60" rx="12"></rect>
+      <rect x="33.33%" y="2.831225936447011" width="6.66%" height="60" rx="12"></rect>
+      <rect x="46.67%" y="12.31745271597971" width="6.66%" height="60" rx="12"></rect>
+      <rect x="60%" y="7.035514687648857" width="6.66%" height="60" rx="12"></rect>
+      <rect x="73.33%" y="11.23751975516587" width="6.66%" height="60" rx="12"></rect>
+      <rect x="86.67%" y="18.605278952424147" width="6.66%" height="60" rx="12"></rect>
+  </g></svg>

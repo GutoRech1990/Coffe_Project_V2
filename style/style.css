@@ -1,0 +1,266 @@
+body::before{
+    content: "";
+    display: block;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: url(./Images/banner.webp); */
+    background-image: url(../images/pexels-coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+html{
+    scroll-padding-top: 180px;
+}
+
+@media (max-width: 430px) {
+    .html{
+        scroll-padding-top: 5px;
+    }
+}
+
+body{
+    font-family: "Quicksand", serif;
+}
+
+
+.navbar p{
+    font-size: 5.5em;
+    font-family: "Shadows Into Light", cursive;
+    color: aliceblue;
+    text-shadow:5px 5px 2px #493706 ;
+}
+@media (max-width: 430px) {
+    .navbar p {
+        font-size: 1.9em;
+    }
+    .navbar img{
+        width: 60px;
+        height: 50px;
+    }
+}
+
+.offcanvas-header{
+    background-color: rgb(249, 230, 207);
+}
+
+.offcanvas-header h5{
+    font-family: "Shadows Into Light", cursive;
+    font-size: 3.0em;
+    color: #a37b0d;
+    text-shadow:3px 3px 2px #493706 ;
+}
+
+.offcanvas-header h5 a{
+    text-decoration: none;
+    color: #a37b0d !important;
+}
+
+.my-navbar {
+    background: linear-gradient(90deg, rgba(246,181,0,0.8407738095238095) 0%, rgba(130,104,9,0.7539390756302521) 43%, rgba(68,53,6,0.7707457983193278) 84%);
+    /* background-image: url(./images/navImg.svg); */
+    position: sticky;
+    border-radius: 0px 20px;
+    margin: 0px 2px 0px 2px;
+}
+
+.offcanvas-body{
+    font-family: "Quicksand", serif;
+    font-size: 1.9em;
+    background-color: #d5b251;
+}
+
+
+.dropdown-menu a{
+    font-size: 1.3em;
+}
+
+.navbar-toggler{
+    background-color: rgba(255, 187, 0, 0.516);
+    border-style: solid;
+    border-width: 3px;
+    border-color: #493706;
+}
+
+
+.container{
+    background-color: rgba(240, 248, 255, 0.887);
+    font-family: "Quicksand", serif;
+    font-size: 1.3em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: justify;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container h1 {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.container h1{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.d-flex{
+    margin-top: 20px;
+}
+
+.d-flex div{
+    width: 400px;
+    height: 440px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(255, 255, 255);
+    /* border-color: black; */
+    /* border-style: solid; */
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.d-flex img{
+    width: 390px;
+    height: 350px;
+    object-fit:cover;
+    border-radius: 8px;
+    filter:sepia(100%);
+    transition: 0.5s;
+}
+
+
+.d-flex img:hover{
+    filter: sepia(0%);
+}
+
+.d-flex p{
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.d-flex span{
+    font-size: 0.7em;
+}
+
+#cards{
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+
+#cards>div:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.52) !important;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+footer .container{
+    width: 950px;
+    padding-top: 10px;
+    bottom: 0;
+    position: fixed;
+}
+
+.table{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.table h3{
+    text-align: center;
+}
+
+.contact{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #d5b251;
+    padding: 30px;
+    border-radius: 50px 0;
+}
+
+
+iframe{
+    height: 400px;
+}
+
+.flag img{
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.flag h2{
+    padding: 30px 0;
+}
+
+.coffee{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+@media (max-width: 430px) {
+    .coffee{
+        display:block;
+    }
+}
+
+.coffee-text{
+    flex-basis: 45%;
+    /* min-width: 400px; */
+}
+
+@media (max-width:430px){
+    .coffee-text{
+        flex-basis: 100%;
+    }
+}
+
+.coffee-img{
+    flex-basis: 49%;
+    align-items: center;
+    align-content: center;
+}
+
+.coffee-img img{
+    border-radius: 40px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 100%;
+    height: 60%;
+    object-fit: cover; 
+}
+
+@media (max-width: 430px) {
+    .coffee-img img {
+        display: none;
+    }
+}
+
+#message{
+    color: green;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.contact h3{
+    text-align: center;
+}
