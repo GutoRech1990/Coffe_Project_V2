@@ -313,3 +313,11 @@ iframe{
 .gallery-control-next {
     right: 10px;
 }
+
+.weather-container {
+    text-align: center;
+}
+
+#weather-result {
+    margin-top: 20px;
+}

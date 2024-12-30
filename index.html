@@ -77,6 +77,13 @@
         </div>
     </nav>
 
+    <div class="weather-container container">
+        <h2>Check the Weather</h2>
+        <input type="text" id="city" placeholder="Enter city name">
+        <button class="btn btn-primary" onclick="getWeather()">Get Weather</button>
+        <div id="weather-result"></div>
+    </div>
+
     <div class="container">
         <h1>Welcome to My Site Dedicated to the Fascinating World of Coffee!</h1>
 
@@ -255,34 +262,7 @@
         </div>
     </footer>
 
-
-    <script>
-        var message = document.getElementById("message")
-
-        function sendMessage() {
-            // message.innerHTML = "<h1>Your message was successfully sent 🎉🎉🎉🎉</h1>"
-            alert("Your message was successfully sent 🎉🎉🎉🎉")
-        }
-
-        let currentIndex = 0;
-        const items = document.querySelectorAll('.gallery-item');
-        const itemCount = items.length;
-
-        function showImage(index) {
-            const newTransformValue = `translateX(-${index * 100}%)`;
-            document.querySelector('.gallery').style.transform = newTransformValue;
-        }
-
-        function nextImage() {
-            currentIndex = (currentIndex + 1) % itemCount;
-            showImage(currentIndex);
-        }
-
-        function prevImage() {
-            currentIndex = (currentIndex - 1 + itemCount) % itemCount;
-            showImage(currentIndex);
-        }
-    </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
