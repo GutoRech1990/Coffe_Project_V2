@@ -1,3 +1,5 @@
+/* ------------------------------------------------------------------Body----------------------------------------------------------------------------------------- */
+
 body::before{
     content: "";
     display: block;
@@ -28,6 +30,7 @@ body{
     font-family: "Quicksand", serif;
 }
 
+/* ------------------------------------------------------------------Nav----------------------------------------------------------------------------------------- */
 
 .navbar p{
     font-size: 5.5em;
@@ -99,6 +102,18 @@ body{
     text-align: justify;
 }
 
+/* ------------------------------------------------------------------Weather----------------------------------------------------------------------------------------- */
+
+.weather-container {
+    text-align: center;
+}
+
+#weather-result {
+    margin-top: 20px;
+}
+
+/* ------------------------------------------------------------------Container----------------------------------------------------------------------------------------- */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -118,6 +133,9 @@ body{
     text-align: center;
     padding: 20px 0;
 }
+
+/* ------------------------------------------------------------------Cards coffee----------------------------------------------------------------------------------------- */
+
 
 .d-flex{
     margin-top: 20px;
@@ -168,103 +186,7 @@ body{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.52) !important;
 }
 
-
-footer{
-    margin-top: 50px;
-}
-
-footer .container{
-    width: 950px;
-    padding-top: 10px;
-    bottom: 0;
-    position: fixed;
-}
-
-.table{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.table h3{
-    text-align: center;
-}
-
-.contact{
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: #d5b251;
-    padding: 30px;
-    border-radius: 50px 0;
-}
-
-
-iframe{
-    height: 400px;
-}
-
-.flag img{
-    width: 300px;
-    float: left;
-    margin-right: 30px;
-    margin-bottom: 10px;
-}
-
-.flag h2{
-    padding: 30px 0;
-}
-
-.coffee{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 50px;
-}
-
-@media (max-width: 430px) {
-    .coffee{
-        display:block;
-    }
-}
-
-.coffee-text{
-    flex-basis: 45%;
-    /* min-width: 400px; */
-}
-
-@media (max-width:430px){
-    .coffee-text{
-        flex-basis: 100%;
-    }
-}
-
-.coffee-img{
-    flex-basis: 49%;
-    align-items: center;
-    align-content: center;
-}
-
-.coffee-img img{
-    border-radius: 40px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    width: 100%;
-    height: 60%;
-    object-fit: cover; 
-}
-
-@media (max-width: 430px) {
-    .coffee-img img {
-        display: none;
-    }
-}
-
-#message{
-    color: green;
-    background-color: rgba(255, 255, 255, 0.6);
-}
-
-.contact h3{
-    text-align: center;
-}
+/* ------------------------------------------------------------------Gallery----------------------------------------------------------------------------------------- */    
 
 .gallery-container {
     position: relative;
@@ -314,10 +236,113 @@ iframe{
     right: 10px;
 }
 
-.weather-container {
+/* ------------------------------------------------------------------Table----------------------------------------------------------------------------------------- */
+
+.table{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.table h3{
     text-align: center;
 }
 
-#weather-result {
-    margin-top: 20px;
+/* ------------------------------------------------------------------Contact----------------------------------------------------------------------------------------- */
+
+.contact{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #d5b251;
+    padding: 30px;
+    border-radius: 50px 0;
 }
+
+.contact h3{
+    text-align: center;
+}
+
+/* #message{
+    color: green;
+    background-color: rgba(255, 255, 255, 0.6);
+} */
+
+
+/* ------------------------------------------------------------------Footer----------------------------------------------------------------------------------------- */
+
+footer{
+    margin-top: 50px;
+}
+
+footer .container{
+    width: 950px;
+    padding-top: 10px;
+    bottom: 0;
+    position: fixed;
+}
+
+/* ------------------------------------------------------------------Flags>page producers.html----------------------------------------------------------------------------------------- */
+
+.flag img{
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.flag h2{
+    padding: 30px 0;
+}
+
+/* ------------------------------------------------------------------Coffe recipes>page recipes.html----------------------------------------------------------------------------------------- */
+
+.coffee{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+@media (max-width: 430px) {
+    .coffee{
+        display:block;
+    }
+}
+
+.coffee-text{
+    flex-basis: 45%;
+    /* min-width: 400px; */
+}
+
+@media (max-width:430px){
+    .coffee-text{
+        flex-basis: 100%;
+    }
+}
+
+.coffee-img{
+    flex-basis: 49%;
+    align-items: center;
+    align-content: center;
+}
+
+.coffee-img img{
+    border-radius: 40px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 100%;
+    height: 60%;
+    object-fit: cover; 
+}
+
+@media (max-width: 430px) {
+    .coffee-img img {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
